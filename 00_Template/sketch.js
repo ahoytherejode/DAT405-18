@@ -11,13 +11,13 @@ function setup() {
   //Print a message to the console - to view using Chrome:
   //View > Developer > Developer Tools > Console
   console.log("Initialization: OK")
-  createCanvas(500,500);
+  createCanvas(900,900);
 }
 
 //Rendering function
 function draw() {
   //Set a background color
-  background(255, 0, 255);
+  background(255, 200, 0);
 
   //Print a message to the console - to view using Chrome:
   //View > Developer > Developer Tools > Console
