@@ -3,55 +3,49 @@ function setup() {
   createCanvas(700, 400);
   background(125);
 
+  strokeWeight(10);
+
   // Line - Left Vertical
   stroke(0, 255, 255);
-  strokeWeight(10);
-  line(50, 50, 50, 350);
+  line(40, 40, 40, 360);
 
   // Line - Right Vertical
   stroke(255, 125, 0);
-  strokeWeight(10);
-  line(650, 50, 650, 350);
+  line(660, 40, 660, 360);
 
   // Line - Bottom Horizontal
   stroke(125, 200, 0);
-  strokeWeight(10);
-  line(50, 350, 650, 350);
+  line(40, 360, 660, 360);
 
   // Line - Top Horizontal
   stroke(255, 0, 255);
-  strokeWeight(10);
-  line(50, 50, 650, 50);
+  line(40, 40, 660, 40);
 
   // Line - Top to Bottom Diagonal
   stroke(0, 255, 0);
-  strokeWeight(10);
-  line(50, 50, 650, 350);
+  line(40, 40, 660, 360);
 
   // Line - Bottom to Top Diagonal
   stroke(255, 255, 0);
-  strokeWeight(10);
-  line(50, 350, 650, 50);
+  line(40, 360, 660, 40);
+
+  noStroke();
 
   // Ellipse - Top left
   fill(0, 0, 255);
-  noStroke();
-  ellipse(50, 50, 80, 80);
+  ellipse(40, 40, 80, 80);
 
   // Ellipe - Top right
   fill(255, 0, 0);
-  noStroke();
-  ellipse(650, 50, 80, 80);
+  ellipse(660, 40, 80, 80);
 
   // Ellipse - Bottom left
   fill(0, 255, 0);
-  noStroke();
-  ellipse(50, 350, 80, 80);
+  ellipse(40, 360, 80, 80);
 
   // Ellipse - Bottom right
   fill(255, 255, 0);
-  noStroke();
-  ellipse(650, 350, 80, 80);
+  ellipse(660, 360, 80, 80);
 
 }
 
