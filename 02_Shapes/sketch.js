@@ -45,7 +45,7 @@ function setup() {
 
   // Ellipse - Bottom right
   fill(255, 255, 0);
-  ellipse(660, 360, 80, 80);
+  rect(660, 360, 80, 80);
 
 }
 
